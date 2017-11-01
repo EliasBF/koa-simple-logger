@@ -1,0 +1,48 @@
+{
+  "name": "koa-simple-logger",
+  "version": "0.4.0",
+  "description": "Koa middleware for logging",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "lint": "standard --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliasBF/koa-simple-logger.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "koa",
+    "middleware",
+    "logger",
+    "log"
+  ],
+  "author": "Elias Becerra <eliashbf@gmail.com (https://eliashbf.com)> (https://eliashbf.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EliasBF/koa-simple-logger/issues"
+  },
+  "homepage": "https://github.com/EliasBF/koa-simple-logger#readme",
+  "engines": {
+    "node": ">=8.7.0"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "axios": "^0.17.0",
+    "babel-eslint": "^8.0.1",
+    "chai": "^4.1.2",
+    "minimist": "^1.2.0",
+    "mocha": "^4.0.1",
+    "rmdir": "^1.2.0",
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
