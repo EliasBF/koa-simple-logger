@@ -1,4 +1,5 @@
 # koa-simple-logger
+[![Build Status](https://travis-ci.org/EliasBF/koa-simple-logger.svg?branch=master)](https://travis-ci.org/EliasBF/koa-simple-logger)
 
 Koa middleware for logging, support rotate files
 
